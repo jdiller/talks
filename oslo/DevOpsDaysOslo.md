@@ -14,21 +14,21 @@ autoscale: true
 Currently Engineering Manager: Incident Management at PagerDuty
 @jdiller on Twitter
 
-^ Hello everyone. My name is Jason. I'm an engineering manager at PagerDuty working out of our Toronto office. 
+^ Hello everyone. My name is Jason. I'm an engineering manager at PagerDuty working out of our Toronto office.
 I come here today to talk to you about how YOU can make improvements in your own life. I've been on both sides of the worker/manager divide and have always cared about making how we make software better. I've tried a lot of things and I've made a lot of mistakes. I've also had some successes.  I'll share with you what has worked for me and what hasn't. I'll explain how to pitch me if I ever end up being your manager.
 
 ---
 # So You Want To Make Things Better...
 
-^ I'm going to go out on a limb and make a big assumption. The assumption is that there's something about your job that, if given a magic wand, or just some time and autonomy, you'd make better. If that's not you and everything with your technolgy and culture is perfect, please come find me after, I wish to learn about this magical wonderland where you work. 
+^ I'm going to go out on a limb and make a big assumption. The assumption is that there's something about your job that, if given a magic wand, or just some time and autonomy, you'd make better. If that's not you and everything with your technolgy and culture is perfect, please come find me after, I wish to learn about this magical wonderland where you work.
 
 ^ If that IS you, I'm going to further guess that you're dealing with one or more of the following situations..
- 
+
 ---
 # Complicated Code Base
 ![](complicatedwires.jpg)
 
-^ The team works on a complicated code base. Maybe it's a ball of mud. Maybe it's a monolith. However, it's shiny. It's a product, it's in the market, it has customers, but its engineering is kind of a mess. It was originally hacked together by the founders or the early employees and sort of grew orgaincally from there. Over time it's had features and bug fixes bolted on and now it's grown to the point that it's getting pretty hard to work with. 
+^ The team works on a complicated code base. Maybe it's a ball of mud. Maybe it's a monolith. However, it's shiny. It's a product, it's in the market, it has customers, but its engineering is kind of a mess. It was originally hacked together by the founders or the early employees and sort of grew orgaincally from there. Over time it's had features and bug fixes bolted on and now it's grown to the point that it's getting pretty hard to work with.
 
 ^ To make it easier for you for and your colleagues, you'd like to address this. Spend some time refactoring, adding tests, whatever...
 
@@ -80,8 +80,8 @@ I come here today to talk to you about how YOU can make improvements in your own
 ---
 # Win-Win
 ## Literally one of the Seven Habits of Highly Effective People
- 
-^ Trying to find a win-win scenario where we can give our stakeholder something that they want while we accomplish our objective will go a long way to convincing them. 
+
+^ Trying to find a win-win scenario where we can give our stakeholder something that they want while we accomplish our objective will go a long way to convincing them.
 
 ^ Whatever it is your company does, it's almost a certainty that you are not selling your customers a not a nicely factored set of microservices. Your product is not a continuous delivery pipeline. Your customers do not care about how well you're following the Scrum Guide. Those things are a means to an end. They are important practices, but they are not what gets you paid.
 
@@ -118,11 +118,11 @@ I come here today to talk to you about how YOU can make improvements in your own
 
 ^ Any potential improvement initiative must have a clear, testable hypothesis behind it. You want to release more often. Why? Is it because releasing is fun? No. You want do it to reduce production bugs. Is the number of production bugs you have now somewhere easily accessible so you can watch to see how your improvements are impacting it?
 
-^ If you want to get all your components into containers. What is the tangible benefit of that to your organization? Fewer configuration related bugs? Fewer bugs in general? Faster deploy times? Lower infrastructure costs? It's not enough to point to an article that lists these benefits or to show someone a talk. Does your org actually have these problems? Can you quantify the cost of the problems? 
+^ If you want to get all your components into containers. What is the tangible benefit of that to your organization? Fewer configuration related bugs? Fewer bugs in general? Faster deploy times? Lower infrastructure costs? It's not enough to point to an article that lists these benefits or to show someone a talk. Does your org actually have these problems? Can you quantify the cost of the problems?
 
 ^ Once you have that hypothesis, and you know what number you're trying to move. Take the smallest step you can that will impact that number.  Containerize a single service. Continuously deploy one small code base.
 
-^ It can be tempting to use other people's metrics or "common sense" to justify these kinds of initiatives. We can read articles and go to talks and hear other people talk about how this or that change made a big impact at their organization, and we can imagine a similar impact at our company. Be careful there. We're all prone to letting our own enthusiasm for technology bias our thinking so we can justify to ourselves doing something we think is cool.  It's important to build the discipline to be as rational as possible. Metrics help us do that. 
+^ It can be tempting to use other people's metrics or "common sense" to justify these kinds of initiatives. We can read articles and go to talks and hear other people talk about how this or that change made a big impact at their organization, and we can imagine a similar impact at our company. Be careful there. We're all prone to letting our own enthusiasm for technology bias our thinking so we can justify to ourselves doing something we think is cool.  It's important to build the discipline to be as rational as possible. Metrics help us do that.
 
 ---
 ## Use Language Of Experimentation
@@ -140,16 +140,34 @@ I come here today to talk to you about how YOU can make improvements in your own
 
 ![inline] (doomsayer.jpg)
 
-^ First of all. Don't be this guy. Running around saying we're all gonna die is fun and gratifying, but it's proprobably not true, and nobody takes you seriously. I'm joking, but one thing to remember is this guy actually thinks the end is coming and that we're all doomed. You may someday find yourself in that situation. Kneck deep in some technical problems that seem insurmountable. You may want to declare bankruptcy on technical debt and flush the whole code base down the toilet and start over. You may truly feel like that's the right thing to do. It almost always isn't. 
+^ First of all. Don't be this guy. Running around saying we're all gonna die is fun and gratifying, but it's proprobably not true, and nobody takes you seriously. I'm joking, but one thing to remember is this guy actually thinks the end is coming and that we're all doomed. You may someday find yourself in that situation. Kneck deep in some technical problems that seem insurmountable. You may want to declare bankruptcy on technical debt and flush the whole code base down the toilet and start over. You may truly feel like that's the right thing to do. It almost always isn't.
 
 ^ Lots of people have written about why giant ground-up rewrites are a bad idea so I hope I'm not telling you anything that's news. Nevertheless, I've had several developers tell me that a code base is unsalvegeable and needs to be rewritten. I haven't fallen for it yet.
 
-
+---
 ## Beware the Developer Productivity Justification
 
-^ If someone tells me we should re-do our front end code in a new framework or port a service to Elixir and Phoenix because after doing that developers will be more productive I'm going to have a hard time with that justification. 
+^ If someone tells me we should re-do our front end code in a new framework or port a service to Elixir and Phoenix because after doing that developers will be more productive I'm going to have a hard time with that justification.
 
-^ It can be enticing. You hear about a new framework and spend a weekend coding a todo list app or something and when it's done you've got a nice, beautifully factored app you can reason about easily, everything fits in your head. Then you think about the convoluted mess that your work code base is and wish it was as nice and tidy as this. Early in my career I made this mistake and falsely attributed the neat and tidy nature of the new code base to the framework or language itself rather than the seemingly obvious fact that it's just a very small code base. 
+^ It can be enticing. You hear about a new framework and spend a weekend coding a todo list app or something and when it's done you've got a nice, beautifully factored app you can reason about easily, everything fits in your head. Then you think about the convoluted mess that your work code base is and wish it was as nice and tidy as this. Early in my career I made this mistake and falsely attributed the neat and tidy nature of the new code base to the framework or language itself rather than the seemingly obvious fact that it's just a very small code base.
+
+---
+
+# Don't Place Blame
+# Don't Characterize
+
+^ When talking about a piece of code or a system or a process you don't like, remember that it didn't spring into existence all on its own. It was written by human beings who did the best job they could with the information and knowledge they had at the time. It may, in fact, have been written by the person sitting next to you, or even the person you need to convince that it should change. Be very very careful about what language you use when describing it.
+
+^ It's very hard to get past someone's bluster and try to understand their underlying message. Turn down the virtriol knob. Turn it all the way down. Avoid characterizing the code. Calling something 'an abomination' will do nothing to help your case, but it does give the listener a reason to stop listening to you, ensuring your ideas get nowhere.
+
+---
+
+# Finally
+
+^ The process of making software is imperfect and it produces imperfect results because it is a process done by humans. The landscape of technology and business is always changing. The tastes and norms of developers, users and managers are always evolving. We always have better information today than we did yesterday. We will never achieve perfection in our systems, at least not for very long. We should always strive to make things better, and we should always think about how we can make things better for everyone around us, not just for ourselves.
+
+^ Please, go and learn about an aspect of your company's business that you don't know much about. Find out what it's like to be in sales, or marketing. See if you can shadow your manager for a day to see what their day is like. I assure you, it will make you a better, more rounded technolgist and it will make it easier for you to bring about the kind of change you care about.
+
 
 ---
 # Image Credits
