@@ -140,9 +140,9 @@ I come here today to talk to you about how YOU can make improvements in your own
 
 ![inline] (doomsayer.jpg)
 
-^ First of all. Don't be this guy. Running around saying we're all gonna die is fun and gratifying, but it's proprobably not true, and nobody takes you seriously. I'm joking, but one thing to remember is this guy actually thinks the end is coming and that we're all doomed. You may someday find yourself in that situation. Kneck deep in some technical problems that seem insurmountable. You may want to declare bankruptcy on technical debt and flush the whole code base down the toilet and start over. You may truly feel like that's the right thing to do. It almost always isn't.
+^ First of all. Don't be this guy. Running around saying we're all gonna die is fun and gratifying, but it's proprobably not true, and nobody takes you seriously. But one thing to remember is this guy actually thinks the end is coming and that we're all doomed. You may someday find yourself in that situation. Kneck deep in some technical problems that seem insurmountable. You may want to declare bankruptcy on technical debt and flush the whole code base down the toilet and start over. You may truly feel like that's the right thing to do. It almost always isn't.
 
-^ Lots of people have written about why giant ground-up rewrites are a bad idea so I hope I'm not telling you anything that's news. Nevertheless, I've had several developers tell me that a code base is unsalvegeable and needs to be rewritten. I haven't fallen for it yet.
+^ Lots of people have written about why giant ground-up rewrites are a bad idea so I hope I'm not telling you anything that's news. Nevertheless, I've had several developers tell me that a code base is unsalvegeable and needs to be rewritten. Having been through a few grand rewrites myself that went badly in the exact ways they always do, I'm convinced that this is almost never the right solution, so it's not a great place to start. 
 
 ---
 ## Beware the Developer Productivity Justification
