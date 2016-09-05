@@ -8,8 +8,8 @@ autoscale: true
 
 * From Toronto, Canada
 * 20 years in the software business.
-* 13 as a developer
-* 7 as manager.
+* 14 as a developer
+* 6 as manager.
 
 Currently Engineering Manager: Incident Management at PagerDuty
 @jdiller on Twitter
@@ -17,10 +17,11 @@ Currently Engineering Manager: Incident Management at PagerDuty
 ^ Hello everyone. My name is Jason. I'm an engineering manager at PagerDuty working out of our Toronto office.
 I come here today to talk to you about how YOU can make improvements in your own life. I've been on both sides of the worker/manager divide and have always cared about making how we make software better. I've tried a lot of things and I've made a lot of mistakes. I've also had some successes.  I'll share with you what has worked for me and what hasn't. I'll explain how to pitch me if I ever end up being your manager.
 
+
 ---
 # So You Want To Make Things Better...
 
-^ I'm going to go out on a limb and make a big assumption. The assumption is that there's something about your job that, if given a magic wand, or just some time and autonomy, you'd make better. If that's not you and everything with your technolgy and culture is perfect, please come find me after, I wish to learn about this magical wonderland where you work.
+^ I'm going to go out on a limb and make an assumption. The assumption is that there's something about your job that, if given a magic wand, or just some time and autonomy, you'd make better. If that's not you and everything with your technolgy and culture is perfect, please submit a talk for the next one of these and tell us all how that came to be! 
 
 ^ If that IS you, I'm going to further guess that you're dealing with one or more of the following situations..
 
@@ -50,6 +51,7 @@ I come here today to talk to you about how YOU can make improvements in your own
 
 ^ Maybe it's not one of those things, maybe it's something else. It doesn't really matter. The point is, you want to make things better.
 
+
 ---
 ![] (manager.jpg)
 
@@ -57,8 +59,12 @@ I come here today to talk to you about how YOU can make improvements in your own
 
 ^ I'm making the assumption that the person isn't this guy, that they're at least somewhat reasonable and not a complete buffoon.
 
+^ I'll be honest, the culture and process stuff can be REALLY hard for an individual contributor to make sweeping changes to. You really need buy-in across the entire organization do it. Most of my examples today will reference the technical realm, but I think the lessons are applicable regardless of that type of change you want to ake. 
+
 ---
 # Flex your empathy muscle
+
+![] (hugging.jpg)
 
 ^ DevOps is about empathy. We talk a lot about it, but we often limit the conversation to empathy for our technical peers. Agile talks about empathy for the customer, but we often don't think about the business as a whole.
 
@@ -77,6 +83,7 @@ I come here today to talk to you about how YOU can make improvements in your own
 
 ^ If we're making a case to someone, it's important that we don't just talk about ourselves and what we want. We have to try to understand what our stakeholder has on their plate. Remember that whoever they are, they're answerable to someone for some kind of deliverable. Even the CEO is usually answerable to the board of directors. It's important not to ignore this.
 
+
 ---
 # Win-Win
 ## Literally one of the Seven Habits of Highly Effective People
@@ -93,6 +100,7 @@ I come here today to talk to you about how YOU can make improvements in your own
 
 ---
 # Educate and Evangelize
+![] (symposium.jpg)
 
 ^ Your stakeholder probably isn't at DevOps days. Even if they are, their boss probably isn't. It's important that we don't assume the person we're trying to convince has the same context as we do and will see the value of what we want immediately and enthusiastically embrace it. We're probably going to need to do a little teaching. This is also an opportunity to do some selling.
 
@@ -127,6 +135,8 @@ I come here today to talk to you about how YOU can make improvements in your own
 ---
 ## Use Language Of Experimentation
 
+![] (laboratory.jpg)
+
 ^ Be clear with everyone that you're try these improvements out as an experiment. Be clear about what your hypothesis is and what outcomes you think you're going to get. Not everything works out and this sets that expectation accurately.  You can screw up the implementation, or you can get it perfectly right and find out that it didn't have the impact you expected. That's why we start small and that's why we use the language of experimentation. Big bang releases are a bad idea when doing feature work and they're a bad idea when doing technical improvements too. Don't promise revolution, even if you're sure you can deliver.
 
 ---
@@ -134,6 +144,9 @@ I come here today to talk to you about how YOU can make improvements in your own
 
 ^ You can't please everyone and you can't address every fear. Some people will resist change no matter what. Ask these people for their trust. Assure them that you've heard their fears and you're open to the possibility that they are right and you are wrong. But ask them to trust you to give it a try.
 
+# Ask for Help
+
+^ A lot of this stuff is hard to do, and building a business case for the change you want to make can be a really daunting task at first. You don't have to do it alone. Ask for help. Get your manager to help you see if a business case can be made for what you want to do. Ask your peers. 
 
 ---
 # What not to do.
@@ -141,6 +154,8 @@ I come here today to talk to you about how YOU can make improvements in your own
 ![inline] (doomsayer.jpg)
 
 ^ First of all. Don't be this guy. Running around saying we're all gonna die is fun and gratifying, but it's proprobably not true, and nobody takes you seriously. But one thing to remember is this guy actually thinks the end is coming and that we're all doomed. You may someday find yourself in that situation. Kneck deep in some technical problems that seem insurmountable. You may want to declare bankruptcy on technical debt and flush the whole code base down the toilet and start over. You may truly feel like that's the right thing to do. It almost always isn't.
+
+^ Keep in mind too, the business person will look at the product a completely different way. It's in the market, it's making money. It will be hard for them to believe the world is going to end.
 
 ^ Lots of people have written about why giant ground-up rewrites are a bad idea so I hope I'm not telling you anything that's news. Nevertheless, I've had several developers tell me that a code base is unsalvegeable and needs to be rewritten. Having been through a few grand rewrites myself that went badly in the exact ways they always do, I'm convinced that this is almost never the right solution, so it's not a great place to start. 
 
@@ -153,8 +168,8 @@ I come here today to talk to you about how YOU can make improvements in your own
 
 ---
 
-# Don't Place Blame
-# Don't Characterize
+## Don't Place Blame
+## Don't Characterize
 
 ^ When talking about a piece of code or a system or a process you don't like, remember that it didn't spring into existence all on its own. It was written by human beings who did the best job they could with the information and knowledge they had at the time. It may, in fact, have been written by the person sitting next to you, or even the person you need to convince that it should change. Be very very careful about what language you use when describing it.
 
@@ -175,4 +190,6 @@ I come here today to talk to you about how YOU can make improvements in your own
 * ![inline](waterfall.jpg) -  (c) Simon Koopman - CC-BY-SA 2.0
 * ![inline](silos.jpg) - (c) Diego Delso - CC-BY-SA 3.0
 * ![inline](brokenbulb.jpg) - (c) George Becker - CC-0
-
+* ![inline](hugging.jpg) - Louise Élisabeth Vigée Le Brun - Public Domain
+* ![inline](symposium.jpg) - Anselm Feuerbach - Public Domain
+* ![inline](laboratory.jpg) - (c) Wikimedia Commons User:Daderot - CC-0
